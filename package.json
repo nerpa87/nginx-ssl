@@ -1,0 +1,23 @@
+{
+  "name": "ssl-test",
+  "version": "1.0.0",
+  "description": "### build ### docker build -t nginx_ssl .",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerpa87/nginx-ssl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nerpa87/nginx-ssl/issues"
+  },
+  "homepage": "https://github.com/nerpa87/nginx-ssl#readme",
+  "dependencies": {
+    "node-static": "^0.7.9"
+  }
+}
