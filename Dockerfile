@@ -19,10 +19,8 @@ ADD static/tKsDb.png /var/www/html/static/tKsDb.png
 ADD static/index.html /var/www/html/static/index.html
 
 ADD server.js /var/www/html/server.js
-ADD package.json /var/www/html/package.json
 
 WORKDIR /var/www/html
-RUN npm i  
 
 EXPOSE 443 
 
